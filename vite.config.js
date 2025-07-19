@@ -6,9 +6,14 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: './', // Use '/' if deploying to root
+  bbase: '/GeeksMovieHub/', // 👈 Use your repo name here if deploying to GitHub Pages
   build: {
     outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: './index.html', // 👈 This helps Vite know where to fallback
+      },
+    },
   },
   server: {
     open: true,
