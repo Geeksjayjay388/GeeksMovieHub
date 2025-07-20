@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  bbase: '/GeeksMovieHub/', // 👈 Use your repo name here if deploying to GitHub Pages
+  base: '/GeeksMovieHub/', // 👈 Use your repo name here if deploying to GitHub Pages
   build: {
     outDir: 'dist',
     rollupOptions: {
