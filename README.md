@@ -1,12 +1,33 @@
-# React + Vite
+# 🌿 NatureConnect — Sustainable Products & Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NatureConnect is a vibrant and eco-conscious website that showcases nature-inspired products and services designed to help individuals reconnect with the earth. Built with React, the platform provides a seamless experience for users to explore, engage, and shop sustainably.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🌱 Browse a curated selection of organic and eco-friendly products
+- 🔍 Discover nature-based services such as wellness retreats, landscaping, and consulting
+- 📱 Fully responsive design for desktop and mobile users
+- 💬 Contact and inquiry system for personalized service requests
+- 🔄 Smooth client-side routing for a dynamic user experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **Routing:** React Router (or HashRouter for deployment)
+- **Build Tool:** Vite
+
+---
+
+## 🚀 Deployment
+
+This app is deployed via **GitHub Pages** using `gh-pages`. To deploy manually:
+
+```bash
+npm install
+npm run build
+npm run deploy
