@@ -94,6 +94,7 @@ function Services() {
           </div>
         </div>
       ))}
+      <p>Choose the Preffered service</p>
     </main>
   );
 }
